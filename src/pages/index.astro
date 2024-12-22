@@ -1,0 +1,33 @@
+---
+import ChargeSection3 from '../components/ChargeSection-3.astro';
+import ChargeSectionS from '../components/ChargeSection-S.astro';
+import ChargeSectionY from '../components/ChargeSection-Y.astro';
+import LandingHeader from '../components/LandingHeader.astro';
+import Section from '../components/Section.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Cybertruck | Tesla">
+
+    <LandingHeader />
+    <main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll">
+        <div class="snap-center landing-section bg-gray-800 text-white h-screen flex items-center justify-center" data-header-color="white">
+            <Section />
+        </div>
+
+        <div class="snap-center landing-section bg-gray-200 text-black h-screen flex items-center justify-center" data-header-color="white">
+            <ChargeSectionS />
+        </div>
+
+        <div class="snap-center landing-section bg-blue-500 text-white h-screen flex items-center justify-center" data-header-color="black">
+            <ChargeSectionY />
+        </div>
+
+        <div class="snap-center landing-section bg-red-500 text-white h-screen flex items-center justify-center" data-header-color="white">
+            <ChargeSection3 />
+        </div>
+    </main>
+
+</Layout>
+
+  
