@@ -1,2 +1,1 @@
-[(https://copytesla.netlify.app/)]
-[(https://github.com/user-attachments/assets/208fa31a-f83c-4978-9fbf-7f5e1752abaa)]
+[![project](https://github.com/user-attachments/assets/78cb93c5-a069-4fb2-b43e-568ef815806b)](https://copytesla.netlify.app/)!
